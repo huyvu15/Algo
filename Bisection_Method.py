@@ -11,6 +11,10 @@ a, b = map(int, input().split())
 
 error = float(input("Nhap vao sai so: "))
 
+if error <= 0:
+    print("Sai so phai la mot so duong.")
+    exit()
+
 n = float(math.ceil(math.log((b-a)*(error**(-1)), 2)))
 
 print("số lần lặp là: ", int(n))
