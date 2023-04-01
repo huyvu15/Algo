@@ -5,5 +5,5 @@ Try to code some algorithms
 - Lưu đồ:  
 ![Diagram](https://github.com/huyvu15/Algo/blob/main/Bisection_Diagram.png)  
 Link Diagram: https://cacoo.com/diagrams/vp0zryKkYwpJ7JwO/B89E2  
-- result: 
+- Result: 
 ![result_1](https://github.com/huyvu15/Algo/blob/main/result_Bisectioin_method.png)
