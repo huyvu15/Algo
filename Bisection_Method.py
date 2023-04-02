@@ -19,7 +19,7 @@ def f(x):
     return x**x-10
 
 def test(a, b):
-    i = 1
+    i = 0
     while abs(b - a) >= error:
         c = (a+b)/2
         if f(a)*f(c) < 0:
