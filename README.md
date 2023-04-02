@@ -6,4 +6,4 @@ Try to code some algorithms
 ![Diagram](https://github.com/huyvu15/Algo/blob/main/Bisection_Diagram.png)  
 Link Diagram: https://cacoo.com/diagrams/vp0zryKkYwpJ7JwO/B89E2  
 - Result: 
-![result_1](https://github.com/huyvu15/Algo/blob/main/result_Bisectioin_method.png)
+![result_1](https://github.com/huyvu15/Algo/blob/main/Bisection.png)
