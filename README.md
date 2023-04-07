@@ -18,7 +18,7 @@ $\Leftrightarrow$ $x = \sqrt[3]{1000-x}$
 
     $| \varphi ' (x) |$ = $\displaystyle|-\dfrac{1}{3}$ $\dfrac{1}{(\sqrt{1000-x})^3}|$ < $\dfrac{1}{3.990^{\frac{2}{3}}}$  < 1  
 $\Rightarrow$ q = $\dfrac{1}{3.990^{\dfrac{2}{3}}}$  
-$\Rightarrow$ Khi đó phương pháp lặp đơn hội tự với pt đã cho $X_0 = 10 $, Xây dựng được dãy gần đúng theo công thức:  
+$\Rightarrow$ Khi đó phương pháp lặp đơn hội tụ với pt đã cho $X_0 = 10 $, Xây dựng được dãy gần đúng theo công thức:  
 
     $X_{n+1}$ = $\sqrt[3]{1000-x}$
 - Kết quả chạy thuật toán:  
