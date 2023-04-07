@@ -21,3 +21,5 @@ $\Rightarrow$ Khi đó phương pháp lặp đơn hội tự với pt đã cho $
 
     $X_{n+1}$ = $\sqrt[3]{1000-x}$
 - Kết quả chạy thuật toán:
+![result_Iteration_method](https://github.com/huyvu15/Algo/blob/main/Iteration_method.py)  
+Link Diagram: https://cacoo.com/diagrams/vp0zryKkYwpJ7JwO-16A4E.png
