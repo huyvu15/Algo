@@ -23,11 +23,11 @@ def test(a, b):
     while abs(b - a) >= error:
         c = (a+b)/2
         if f(a)*f(c) < 0:
+            print(f"lần {i}: a = {a}, b = {b}, c = {c}, f(c) = ", f(c))
             b = c
-            print(f"lần {i}: a = {a}, b = {b}, c = {c}, f(c) = ", f(c))
         else:
-            a = c
             print(f"lần {i}: a = {a}, b = {b}, c = {c}, f(c) = ", f(c))
+            a = c
         i +=1
     return c   
 print("Cách thuật toán chạy:")
