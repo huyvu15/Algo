@@ -10,7 +10,7 @@ Link Diagram: https://cacoo.com/diagrams/vp0zryKkYwpJ7JwO/B89E2
 
 # 2. Iteration_method:
 - Nhược điểm của phương pháp này là mình phải tìm hàm $\varphi$ thỏa mãn yêu cầu bài toán
-- sai số $10^{-7}$
+- Sai số $10^{-7}$
 Ta có:   
 $x^3+x-1000=0$  
 $\Leftrightarrow$ $x = \sqrt[3]{1000-x}$
