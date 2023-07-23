@@ -4,7 +4,7 @@ from tabulate import tabulate
 
 print("Tìm nghiệm của phương trình x**3+x-1000 trên khoảng phân ly: ", end = '')
 a, b = map(int, input().split())
-print("Nhap va ham \u03C6 (x): math.pow(12x+5, 1/3)")
+print("Nhap vao ham \u03C6 (x): math.pow(12x+5, 1/3)") # \u03C6 là ký hiệu toán học
 error = float(input("Nhập vào sai số: "))
 
 def phi(x):
