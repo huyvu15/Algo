@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[5]:
 
 
@@ -9,9 +6,6 @@ from scipy.linalg import null_space
 from numpy import linalg as LA
 from scipy.linalg import svd
 import math as mt
-
-
-
 
 data=np.genfromtxt('input.txt', delimiter=' ')
 A=np.array(data)
