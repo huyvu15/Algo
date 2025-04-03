@@ -10,13 +10,13 @@ pygame.init()
 
 screen = pygame.display.set_mode((1200,700))
 
-pygame.display.set_caption("kmeans visualization")
+pygame.display.set_caption("Kmeans visualization")
 
 running = True
 	
 clock = pygame.time.Clock()
 
-BACKGROUND = (214, 214, 214)
+BACKGROUND = (214, 214, 214)	
 BLACK = (0,0,0)
 BACKGROUND_PANEL = (249, 255, 230)
 WHITE = (255,255,255)
@@ -176,6 +176,8 @@ while running:
 					kmeans = KMeans(n_clusters=K).fit(points) 
 					labels = kmeans.predict(points)
 					clusters = kmeans.cluster_centers_
+					iterations = kmeans.n_iter_
+					print("iterations = ", iterations)
 				except:
 					print("error")
 				print("Algorithm button pressed")
